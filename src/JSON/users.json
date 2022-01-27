@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "avatar_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/avatars/face-1.jpg?raw=true",
+      "cover_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/covers/cover-1.jpg?raw=true",
+      "name": "Leanne Graham",
+      "username": "BretA",
+      "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere?",
+      "follower_count": 2200,
+      "followed_status": true,
+      "category": "cosplayer"
+    },
+    {
+      "id": 2,
+      "avatar_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/avatars/face-2.jpg?raw=true",
+      "cover_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/covers/cover-2.jpg?raw=true",
+      "name": "Ervin Howell",
+      "username": "Antonett",
+      "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere?",
+      "follower_count": 1500000,
+      "followed_status": true,
+      "category": "youtuber"
+    },
+    {
+      "id": 3,
+      "avatar_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/avatars/face-3.jpg?raw=true",
+      "cover_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/covers/cover-3.jpg?raw=true",
+      "name": "John Doe",
+      "username": "Jd",
+      "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere?",
+      "follower_count": 521000,
+      "followed_status": true,
+      "category": "social"
+    }
+  ]
+}
