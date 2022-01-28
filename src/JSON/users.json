@@ -23,14 +23,14 @@
       "category": "social"
     },
     {
-      "id": 2,
+      "id": 3,
       "avatar_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/avatars/face-2.jpg?raw=true",
       "cover_img": "https://github.com/dwikbtn/trakteer-test/blob/main/public/assets/img/covers/cover-2.jpg?raw=true",
       "name": "Ervin Howell Ervin HowellErvin HowellErvin HowellErvin HowellErvin HowellErvin HowellErvin Howell",
       "username": "Antonett Antonett Antonett Antonett Antonett Antonett Antonett Antonett Antonett",
       "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odit eius facere?",
       "follower_count": 1500000,
-      "followed_status": true,
+      "followed_status": false,
       "category": "youtuber"
     }
   ]
