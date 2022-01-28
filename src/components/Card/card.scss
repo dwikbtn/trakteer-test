@@ -57,7 +57,7 @@
 .unfollow-btn {
   width: 108px;
   height: 32px;
-  @include button($bgClr: #e7e7e7, $textClr: $main-text-clr-white);
+  @include button($bgClr: #e7e7e7, $textClr: $main-text-clr-gray);
 }
 
 .card-body {
