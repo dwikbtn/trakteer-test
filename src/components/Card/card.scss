@@ -3,9 +3,11 @@
   position: relative;
   max-width: 310px;
   min-height: 300px;
+  min-width: 220px;
   background: #ffffff;
   border: 1px solid #e7e7e7;
   border-radius: 8px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -37,30 +39,25 @@
     outline: 5px solid hsla(0, 0%, 100%, 1);
   }
 }
+.btn:active {
+  transform: translateY(4px);
+  box-shadow: 0px 2px 5px rgba(60, 210, 120, 0.25);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
 .follow-btn {
-  padding: 7px 12px 7px 9px;
   width: 88px;
   height: 32px;
+  @include button($bgClr: #3cd278, $textClr: $main-text-clr-white);
+}
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  font-family: "Quicksand";
-  color: $main-text-clr-white;
-  font-weight: bold;
-  font-size: 0.875rem;
-  line-height: 125%;
-
-  background: #3cd278;
-  box-shadow: 0px 2px 5px rgba(60, 210, 120, 0.25);
-  border-radius: 100px;
-
-  img {
-    width: 18px;
-    height: 18px;
-    border: 0;
-  }
+.unfollow-btn {
+  width: 108px;
+  height: 32px;
+  @include button($bgClr: #e7e7e7, $textClr: $main-text-clr-white);
 }
 
 .card-body {
@@ -70,11 +67,11 @@
     display: flex;
     flex-wrap: wrap;
     line-height: 125%;
-
     .name {
       color: $main-text-clr;
       font-weight: 600;
       font-size: 0.875rem;
+      white-space: normal;
     }
     .user_name {
       font-size: 0.75rem;

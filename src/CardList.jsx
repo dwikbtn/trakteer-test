@@ -8,7 +8,7 @@ function CardList() {
     <section className="card-list">
       {/* <Card user={users.users[0]} /> */}
       {users.users.map((userList) => {
-        return <Card user={userList} />;
+        return <Card key={userList.id} user={userList} />;
       })}
     </section>
   );

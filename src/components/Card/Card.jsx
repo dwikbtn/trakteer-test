@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import CoverPicture from "./CoverPicture/CoverPicture";
 import SocmedIcon from "./SocmedIcon/SocmedIcon";
@@ -12,7 +13,6 @@ import Category from "./CardBody/Category";
 import "./card.scss";
 
 const Card = ({ user }) => {
-  console.log(user);
   return (
     <div className="card">
       <CoverPicture url={user.cover_img} />
@@ -33,6 +33,10 @@ const Card = ({ user }) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  user: PropTypes.object,
 };
 
 export default Card;
